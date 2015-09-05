@@ -1,0 +1,8 @@
+[2] Write a program that has a recursive function called dec2bin(). 
+It should read a number n of length len and call dec2bin() to output n with len binary digits. 
+Include a loop so that you can repeat the process five times. 
+
+In the runs use the following inputs:
+11	597	820	613	465	7
+
+Turn in your program and the results.
