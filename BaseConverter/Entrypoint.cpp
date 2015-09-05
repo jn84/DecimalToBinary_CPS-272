@@ -6,7 +6,7 @@
 using namespace std;
 
 // Supports up to 32-bit integers
-string dec2bin(unsigned int inputNumber, const int exponent = sizeof(int) * 8)
+string dec2bin(unsigned int inputNumber, const int exponent = sizeof(int) * 8 - 1)
 {
     if (exponent < 0)               // base case
         return "";
