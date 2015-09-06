@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
 #include <string>
-#include <ctime>
 
 using namespace std;
 
@@ -9,7 +8,15 @@ string dec2bin(const unsigned long inputNumber, const int power = sizeof(long) *
 
 void main()
 {
-
+    unsigned long n = 0;
+    while (true)
+    {
+        cout << "Enter a number to convert to binary: ";
+        cin >> n;
+        if (cin.fail())
+            break;
+        cout << dec2bin(n) << " is the " << sizeof(long) * 8 << "-bit binary equivalent of " << n << endl << endl;
+    }
 }
 
 // Supports at least 32-bit unsigned integers (system dependent)
