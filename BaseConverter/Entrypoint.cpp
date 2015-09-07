@@ -15,7 +15,7 @@ void main()
         cin >> n;
         if (cin.fail())
             break;
-        cout << dec2bin(n) << " is the " << sizeof(long) * 8 << "-bit binary equivalent of " << n << endl << endl;
+        cout << dec2bin(n) << " is the binary equivalent of the decimal number " << n << endl << endl;
     }
 }
 
