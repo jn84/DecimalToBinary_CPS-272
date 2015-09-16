@@ -24,8 +24,7 @@ void main()
         if (cin.fail())
             break;
         cout << dec2bin(n) 
-             << " is the number " << n << " in binary." 
-             << n << endl << endl;
+             << " is the decimal number " << n << " in binary." << "\n\n";
     }
 }
 
