@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////////// 
+//       Name: Jeremy Nims
+// Assignment: MP2 - Part 2 - Binary to Decimal
+//     Course: CPS 272, Wed 5:30
+//////////////////////////////////////////////////////////////////////////
+
 #include <iostream>
 #include <cmath>
 #include <string>
@@ -19,7 +25,7 @@ void main()
     }
 }
 
-// Supports at least 32-bit unsigned integers (system dependent)
+// No negative numbers
 string dec2bin(const unsigned long inputNumber, const int power)
 {
     if (power < 0) return "";                        // base case
