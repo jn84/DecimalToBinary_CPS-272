@@ -10,7 +10,9 @@
 
 using namespace std;
 
-string dec2bin(const unsigned long inputNumber, const int power = sizeof(long) * 8 - 1);
+string dec2bin(
+    const unsigned long inputNumber, 
+    const int power = sizeof(long) * 8 - 1);
 
 void main()
 {
@@ -21,7 +23,9 @@ void main()
         cin >> n;
         if (cin.fail())
             break;
-        cout << dec2bin(n) << " is the binary equivalent of the decimal number " << n << endl << endl;
+        cout << dec2bin(n) 
+             << " is the binary equivalent of the decimal number " 
+             << n << endl << endl;
     }
 }
 
